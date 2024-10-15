@@ -16,7 +16,7 @@ let accessToken;
 
 function openDialog() {
   Office.context.ui.displayDialogAsync(
-    'https://az1.lusp.in:8443/addinSamples/macDialogTest/dialogWindow.html',
+    'https://luspin.github.io/2407230050000622/dialogWindow.html',
     { height: 60, width: 30, promptBeforeOpen: false },
     function (asyncResult) {
       dialog = asyncResult.value;
